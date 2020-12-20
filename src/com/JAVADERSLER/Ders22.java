@@ -7,7 +7,7 @@ public class Ders22 {
         car2.ShowInfos();
         Car2 car3=car2;
         car3.ShowInfos();
-        //Exception in thread "main" java.lang.NullPointerException beklenir çünkü null tnaımlandı, doğrusu için car2 olarak refersans veirlrise durum Ok
+        //Exception in thread "Main1" java.lang.NullPointerException beklenir çünkü null tnaımlandı, doğrusu için car2 olarak refersans veirlrise durum Ok
         String s1= new String("Mustafa");
         String s2= new String("Mustafa");
         if(s1==s2){
